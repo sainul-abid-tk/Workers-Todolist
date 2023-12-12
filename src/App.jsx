@@ -18,11 +18,11 @@ function App() {
   return (
     <div className="app">
       <div className="mainHeading">
-        <h1>ToDo List</h1>
+        <h1>Hey Workers</h1>
       </div>
       <div className="subHeading">
         <br />
-        <h2 style={{textAlign:'center'}}>Hey, it's Working Day 🌝⛑️ </h2>
+        <h2 style={{textAlign:'center'}}>It's Working Day 🌝⛑️ </h2>
       </div>
       <div className="input">
         <input type="text" value={ToDo}  onChange={(e)=>setToDo(e.target.value)} placeholder="🖊️ Add Name..." />
